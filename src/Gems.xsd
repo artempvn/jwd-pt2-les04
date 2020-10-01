@@ -21,7 +21,7 @@
 		<attribute name="origin" use="optional">
 			<simpleType>
 				<restriction base="string">
-					<pattern value="[\p{L}\\s]{2,20}" />
+					<pattern value="[\p{L}\s]{2,20}" />
 				</restriction>
 			</simpleType>
 		</attribute>
