@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.example.org/gems"
+	xsi:schemaLocation="http://www.example.org/gems gems.xsd">
+	<precious-gemstone id="p1">
+		<name>Diamond</name>
+		<value>20</value>
+		<parameters>
+			<color>White</color>
+			<transparency>0</transparency>
+			<number-of-faces>15</number-of-faces>
+		</parameters>
+		<cut-date>2002-05-30T09:00:00</cut-date>
+	</precious-gemstone>
+	<precious-gemstone id="p2" origin="Colombia">
+		<name>Emerald</name>
+		<value>512</value>
+		<parameters>
+			<color>Green</color>
+			<transparency>10</transparency>
+			<number-of-faces>6</number-of-faces>
+		</parameters>
+		<cut-date>2010-05-26T15:00:00</cut-date>
+	</precious-gemstone>
+	<precious-gemstone id="p3" origin="Madagascar">
+		<name>Sapphire</name>
+		<value>5</value>
+		<parameters>
+			<color>Blue</color>
+			<transparency>45</transparency>
+			<number-of-faces>14</number-of-faces>
+		</parameters>
+		<cut-date>2012-06-14T14:00:00</cut-date>
+	</precious-gemstone>
+	<precious-gemstone id="p4" origin="Sri Lanka">
+		<name>Sapphire</name>
+		<value>25</value>
+		<parameters>
+			<color>Violet</color>
+			<transparency>12</transparency>
+			<number-of-faces>11</number-of-faces>
+		</parameters>
+		<cut-date>2011-01-12T11:00:00</cut-date>
+	</precious-gemstone>
+	<precious-gemstone id="p5" origin="Myanmar">
+		<name>Ruby</name>
+		<value>111</value>
+		<parameters>
+			<color>Red</color>
+			<transparency>0</transparency>
+			<number-of-faces>15</number-of-faces>
+		</parameters>
+		<cut-date>2001-03-13T14:00:00</cut-date>
+	</precious-gemstone>
+	<precious-gemstone id="p6" origin="Sri Lanka">
+		<name>Spinel</name>
+		<value>325</value>
+		<parameters>
+			<color>Violet</color>
+			<transparency>54</transparency>
+			<number-of-faces>12</number-of-faces>
+		</parameters>
+		<cut-date>2016-01-14T17:00:00</cut-date>
+	</precious-gemstone>
+	<precious-gemstone id="p7" origin="Sri Lanka">
+		<name>Chrysoberyl</name>
+		<value>61</value>
+		<parameters>
+			<color>White</color>
+			<transparency>15</transparency>
+			<number-of-faces>12</number-of-faces>
+		</parameters>
+		<cut-date>2002-06-30T10:00:00</cut-date>
+	</precious-gemstone>
+	<precious-gemstone id="p8" origin="Afrcia">
+		<name>Alexandrite</name>
+		<value>411</value>
+		<parameters>
+			<color>Gray</color>
+			<transparency>10</transparency>
+			<number-of-faces>8</number-of-faces>
+		</parameters>
+		<cut-date>2018-05-11T09:00:00</cut-date>
+	</precious-gemstone>
+	<semiprecious-gemstone id="s1" origin="Australia">
+		<name>Opal</name>
+		<value>15</value>
+		<parameters>
+			<color>Blue</color>
+			<transparency>95</transparency>
+			<number-of-faces>4</number-of-faces>
+		</parameters>
+		<cut-date>2012-12-25T12:00:00</cut-date>
+	</semiprecious-gemstone>
+	<semiprecious-gemstone id="s2"
+		origin="Dominican Republic">
+		<name>Amber</name>
+		<value>40</value>
+		<parameters>
+			<color>Blue</color>
+			<transparency>98</transparency>
+			<number-of-faces>4</number-of-faces>
+		</parameters>
+		<cut-date>2004-02-28T11:00:00</cut-date>
+	</semiprecious-gemstone>
+	<semiprecious-gemstone id="s3" origin="Germany">
+		<name>Amethyst</name>
+		<value>13</value>
+		<parameters>
+			<color>Violet</color>
+			<transparency>12</transparency>
+			<number-of-faces>15</number-of-faces>
+		</parameters>
+		<cut-date>2005-08-02T08:00:00</cut-date>
+	</semiprecious-gemstone>
+	<semiprecious-gemstone id="s4" origin="Africa">
+		<name>Aquamarine</name>
+		<value>5</value>
+		<parameters>
+			<color>Blue</color>
+			<transparency>33</transparency>
+			<number-of-faces>6</number-of-faces>
+		</parameters>
+		<cut-date>2014-06-22T13:00:00</cut-date>
+	</semiprecious-gemstone>
+	<semiprecious-gemstone id="s5" origin="Sri Lanka">
+		<name>Topaz</name>
+		<value>41</value>
+		<parameters>
+			<color>Yellow</color>
+			<transparency>5</transparency>
+			<number-of-faces>11</number-of-faces>
+		</parameters>
+		<cut-date>2019-04-21T15:30:00</cut-date>
+	</semiprecious-gemstone>
+	<semiprecious-gemstone id="s6" origin="Iran">
+		<name>Onyx</name>
+		<value>46</value>
+		<parameters>
+			<color>Red</color>
+			<transparency>25</transparency>
+			<number-of-faces>5</number-of-faces>
+		</parameters>
+		<cut-date>2002-04-05T10:00:00</cut-date>
+	</semiprecious-gemstone>
+	<semiprecious-gemstone id="s7" origin="Africa">
+		<name>Tanzanite</name>
+		<value>21</value>
+		<parameters>
+			<color>White</color>
+			<transparency>87</transparency>
+			<number-of-faces>9</number-of-faces>
+		</parameters>
+		<cut-date>2013-10-14T18:00:00</cut-date>
+	</semiprecious-gemstone>
+	<semiprecious-gemstone id="s8" origin="Sri Lanka">
+		<name>Peridot</name>
+		<value>48</value>
+		<parameters>
+			<color>Orange</color>
+			<transparency>50</transparency>
+			<number-of-faces>12</number-of-faces>
+		</parameters>
+		<cut-date>2017-07-25T11:00:00</cut-date>
+	</semiprecious-gemstone>
+</gems>

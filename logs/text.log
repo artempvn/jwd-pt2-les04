@@ -1,0 +1,194 @@
+2020-10-05 15:51:57 [main] INFO  by.artempvn.les04.factory.GemBuilderFactory- Parsing type is: DOM
+2020-10-05 15:51:57 [main] INFO  by.artempvn.les04.main.Main- [
+Gem 
+id: p1
+origin: Not defined
+name: Diamond
+value: 20
+cut-date: 2002-05-30T09:00
+parameters: 
+	color: White
+	transparency: 0
+	number-of-faces: 15
+gemType: PRECIOUS
+, 
+Gem 
+id: p2
+origin: Colombia
+name: Emerald
+value: 512
+cut-date: 2010-05-26T15:00
+parameters: 
+	color: Green
+	transparency: 10
+	number-of-faces: 6
+gemType: PRECIOUS
+, 
+Gem 
+id: p3
+origin: Madagascar
+name: Sapphire
+value: 5
+cut-date: 2012-06-14T14:00
+parameters: 
+	color: Blue
+	transparency: 45
+	number-of-faces: 14
+gemType: PRECIOUS
+, 
+Gem 
+id: p4
+origin: Sri Lanka
+name: Sapphire
+value: 25
+cut-date: 2011-01-12T11:00
+parameters: 
+	color: Violet
+	transparency: 12
+	number-of-faces: 11
+gemType: PRECIOUS
+, 
+Gem 
+id: p5
+origin: Myanmar
+name: Ruby
+value: 111
+cut-date: 2001-03-13T14:00
+parameters: 
+	color: Red
+	transparency: 0
+	number-of-faces: 15
+gemType: PRECIOUS
+, 
+Gem 
+id: p6
+origin: Sri Lanka
+name: Spinel
+value: 325
+cut-date: 2016-01-14T17:00
+parameters: 
+	color: Violet
+	transparency: 54
+	number-of-faces: 12
+gemType: PRECIOUS
+, 
+Gem 
+id: p7
+origin: Sri Lanka
+name: Chrysoberyl
+value: 61
+cut-date: 2002-06-30T10:00
+parameters: 
+	color: White
+	transparency: 15
+	number-of-faces: 12
+gemType: PRECIOUS
+, 
+Gem 
+id: p8
+origin: Afrcia
+name: Alexandrite
+value: 411
+cut-date: 2018-05-11T09:00
+parameters: 
+	color: Gray
+	transparency: 10
+	number-of-faces: 8
+gemType: PRECIOUS
+, 
+Gem 
+id: s1
+origin: Australia
+name: Opal
+value: 15
+cut-date: 2012-12-25T12:00
+parameters: 
+	color: Blue
+	transparency: 95
+	number-of-faces: 4
+gemType: SEMIPRECIOUS
+, 
+Gem 
+id: s2
+origin: Dominican Republic
+name: Amber
+value: 40
+cut-date: 2004-02-28T11:00
+parameters: 
+	color: Blue
+	transparency: 98
+	number-of-faces: 4
+gemType: SEMIPRECIOUS
+, 
+Gem 
+id: s3
+origin: Germany
+name: Amethyst
+value: 13
+cut-date: 2005-08-02T08:00
+parameters: 
+	color: Violet
+	transparency: 12
+	number-of-faces: 15
+gemType: SEMIPRECIOUS
+, 
+Gem 
+id: s4
+origin: Africa
+name: Aquamarine
+value: 5
+cut-date: 2014-06-22T13:00
+parameters: 
+	color: Blue
+	transparency: 33
+	number-of-faces: 6
+gemType: SEMIPRECIOUS
+, 
+Gem 
+id: s5
+origin: Sri Lanka
+name: Topaz
+value: 41
+cut-date: 2019-04-21T15:30
+parameters: 
+	color: Yellow
+	transparency: 5
+	number-of-faces: 11
+gemType: SEMIPRECIOUS
+, 
+Gem 
+id: s6
+origin: Iran
+name: Onyx
+value: 46
+cut-date: 2002-04-05T10:00
+parameters: 
+	color: Red
+	transparency: 25
+	number-of-faces: 5
+gemType: SEMIPRECIOUS
+, 
+Gem 
+id: s7
+origin: Africa
+name: Tanzanite
+value: 21
+cut-date: 2013-10-14T18:00
+parameters: 
+	color: White
+	transparency: 87
+	number-of-faces: 9
+gemType: SEMIPRECIOUS
+, 
+Gem 
+id: s8
+origin: Sri Lanka
+name: Peridot
+value: 48
+cut-date: 2017-07-25T11:00
+parameters: 
+	color: Orange
+	transparency: 50
+	number-of-faces: 12
+gemType: SEMIPRECIOUS
+]

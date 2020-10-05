@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/gems"
+	xmlns:tns="http://www.example.org/gems" elementFormDefault="qualified">
+
+	<complexType name="GemType">
+		<sequence>
+			<element name="name" type="string" />
+			<element name="value" type="tns:Value" />
+			<element name="parameters" type="tns:VisualParameters" />
+			<element name="cut-date" type="dateTime"/>
+		</sequence>
+		<attribute name="id" type="ID" use="required" />
+		<attribute name="origin" type="tns:Origin" use="optional"
+			default="Not defined" />
+	</complexType>
+
+	<complexType name="PreciousGemType">
+		<complexContent>
+			<restriction base="tns:GemType">
+				<sequence>
+					<element name="name" type="tns:PreciousGemList" />
+					<element name="value" type="tns:Value" />
+					<element name="parameters" type="tns:VisualParameters" />
+					<element name="cut-date" type="dateTime" />
+				</sequence>
+			</restriction>
+		</complexContent>
+	</complexType>
+
+	<simpleType name="Value">
+		<restriction base="integer">
+			<minInclusive value="1" />
+			<maxInclusive value="1000" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="Origin">
+		<restriction base="string">
+			<pattern value="[\p{L}\s]{2,30}" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="SemipreciousGemType">
+		<complexContent>
+			<restriction base="tns:GemType">
+				<sequence>
+					<element name="name" type="tns:SemipreciousGemList" />
+					<element name="value" type="tns:Value" />
+					<element name="parameters" type="tns:VisualParameters" />
+					<element name="cut-date" type="dateTime" />
+				</sequence>
+			</restriction>
+		</complexContent>
+	</complexType>
+
+	<simpleType name="PreciousGemList">
+		<restriction base="string">
+			<enumeration value="Diamond" />
+			<enumeration value="Ruby" />
+			<enumeration value="Sapphire" />
+			<enumeration value="Emerald" />
+			<enumeration value="Chrysoberyl" />
+			<enumeration value="Spinel" />
+			<enumeration value="Alexandrite" />
+			<enumeration value="Euclase" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="SemipreciousGemList">
+		<restriction base="string">
+			<enumeration value="Tourmaline" />
+			<enumeration value="Opal" />
+			<enumeration value="Aquamarine" />
+			<enumeration value="Topaz" />
+			<enumeration value="Amethyst" />
+			<enumeration value="Peridot" />
+			<enumeration value="Turquoise" />
+			<enumeration value="Tanzanite" />
+			<enumeration value="Amber" />
+			<enumeration value="Onyx" />
+			<enumeration value="Heliodor" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="VisualParameters">
+		<sequence>
+			<element name="color">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="Red" />
+						<enumeration value="Blue" />
+						<enumeration value="Green" />
+						<enumeration value="Yellow" />
+						<enumeration value="Violet" />
+						<enumeration value="Orange" />
+						<enumeration value="White" />
+						<enumeration value="Gray" />
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="transparency">
+				<simpleType>
+					<restriction base="integer">
+						<minInclusive value="0" />
+						<maxInclusive value="100" />
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="number-of-faces">
+				<simpleType>
+					<restriction base="integer">
+						<minInclusive value="4" />
+						<maxInclusive value="15" />
+					</restriction>
+				</simpleType>
+			</element>
+		</sequence>
+	</complexType>
+
+	<element name="gem" type="tns:GemType" abstract="true" />
+
+	<element name="precious-gemstone" type="tns:PreciousGemType"
+		substitutionGroup="tns:gem" />
+
+	<element name="semiprecious-gemstone"
+		type="tns:SemipreciousGemType" substitutionGroup="tns:gem" />
+
+	<element name="gems">
+		<complexType>
+			<sequence>
+				<element ref="tns:gem" minOccurs="1" maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+
+</schema>
